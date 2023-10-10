@@ -4,9 +4,9 @@ provider "aws" {
    secret_key = "owYIj8LUyjPZi/22eXPtVbhb9DBe3XV8zdgRZFQe"
 }
 
-resource "aws_instance" "ec2_example" {
+resource "aws_instance" "vcube" {
 
-   ami           = "ami-0cca134ec43cf708f"
+   ami           = "ami-053b0d53c279acc90"
    instance_type =  "t2.micro"
 
    tags = {
